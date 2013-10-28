@@ -13,7 +13,7 @@
     moznion : soba
     boolfool : sushi
     macopy : sushi
-    }
+    };
 
 [food.pl](https://github.com/perl-entrance-org/workshop-2013-04/blob/master/food.pl) では, 上記のように, `$data` に人物名と好きな食べ物を `(スペース):(スペース)` 区切りで与えています.  
 この変数から食べ物が何回出現したかカウントして表示させてください.
