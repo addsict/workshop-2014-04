@@ -8,4 +8,4 @@ papix : sushi
 moznion : soba
 boolfool : sushi
 macopy : sushi
-}
+};
