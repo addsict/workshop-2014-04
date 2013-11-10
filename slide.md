@@ -11,7 +11,7 @@
 
 # リファレンスの復習
 
-- [前回の復習問題](https://github.com/perl-entrance-org/workshop-2013-03/blob/master/practice.md)の｢score.pl｣の一部の問題を解きながら, 正規表現を復習してみましょう.
+- [前回の復習問題](https://github.com/perl-entrance-org/workshop-2013-03/blob/master/practice.md)の｢score.pl｣の一部の問題を解きながら, リファレンスを復習してみましょう.
 - [こちら](https://github.com/perl-entrance-org/workshop-2013-03/blob/master/score.pl)にサンプルデータがあります.
 
 # サブルーチン
