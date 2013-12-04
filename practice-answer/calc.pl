@@ -8,7 +8,7 @@ use Data::Dumper;
 sub calc {
     my ($left, $right) = @_;
 
-    if ($left =~ /^\d+$/ && $right =~ /^\d+/) {
+    if ($left =~ /^\d+$/ && $right =~ /^\d+$/) {
         my %result = (
             add => $left + $right,
             sub => $left - $right,
