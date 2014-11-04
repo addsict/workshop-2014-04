@@ -502,10 +502,10 @@ ___
 ## 練習問題
     my @words = (
         'papix loves meat!',
-        'moznion loves sushi!',
+        'boolfool loves sushi!',
     );
     
-- このような配列のリファレンスを受け取り, リファレンスに格納された文字列について, ｢loves｣の後に記述されている好きな食べ物の単語を正規表現で取得し, ｢papix -> meat｣, ｢moznion -> sushi｣のように表示するサブルーチン, `love_food`を書いてみよう.
+- このような配列のリファレンスを受け取り, リファレンスに格納された文字列について, ｢loves｣の後に記述されている好きな食べ物の単語を正規表現で取得し, ｢papix -> meat｣, ｢boolfool -> sushi｣のように表示するサブルーチン, `love_food`を書いてみよう.
 
 ---
 # 正規表現と置換
@@ -534,9 +534,9 @@ ___
 
 ___
 ## 練習問題
-    my $str = 'moznion loves ruby';
+    my $str = 'I love ruby';
 
-- この`$str`に格納された文字列を, 置換を利用して, ｢moznion loves perl｣に書き換えるようなコードを書いてみましょう.
+- この`$str`に格納された文字列を, 置換を利用して, ｢I love perl｣に書き換えるようなコードを書いてみましょう.
 
 ---
 # 正規表現とメタ文字
@@ -699,7 +699,7 @@ ___
 # 練習問題
 - 文字列の先頭に`papix`がある場合, ｢Find papix!｣と表示する.
 - 文字列に`Hello`が含まれる場合, その後に続く単語`xxxx`を使って｢Hello! xxxx!｣と表示する.
-    - 例えば, 文字列に｢Hello moznion｣が含まれる場合, ｢Hello! moznion!｣と表示すればOKです.
+    - 例えば, 文字列に｢Hello papix｣が含まれる場合, ｢Hello! papix!｣と表示すればOKです.
 
 ---
 # 質問
