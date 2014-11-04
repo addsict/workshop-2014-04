@@ -41,4 +41,4 @@
 # 練習問題
 - 文字列の先頭に`papix`がある場合, ｢Find papix!｣と表示する.
 - 文字列に`Hello`が含まれる場合, その後に続く単語`xxxx`を使って｢Hello! xxxx!｣と表示する.
-    - 例えば, 文字列に｢Hello moznion｣が含まれる場合, ｢Hello! moznion!｣と表示すればOKです.
+    - 例えば, 文字列に｢Hello papix｣が含まれる場合, ｢Hello! papix!｣と表示すればOKです.
