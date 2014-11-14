@@ -25,7 +25,7 @@
 
 # 練習問題
 
-    while (chomp($input = <STDIN>)) {
+    while (chomp(my $input = <STDIN>)) {
         ...
     }
 
