@@ -157,9 +157,9 @@
 - このように, 量指定子のあとに`?`を付けて, 最短マッチにすれば, `Nice to meet you, hoge!`と出力されるはずです.
 
 ## 練習問題
-    my @words = (
+    my $words_ref = [
         'papix loves meat!',
         'boolfool loves sushi!',
-    );
+    ];
     
 - このような配列のリファレンスを受け取り, リファレンスに格納された文字列について, ｢loves｣の後に記述されている好きな食べ物の単語を正規表現で取得し, ｢papix -> meat｣, ｢boolfool -> sushi｣のように表示するサブルーチン, `love_food`を書いてみよう.
