@@ -30,7 +30,7 @@ ___
 # リファレンスの復習
 
 - [前回の復習問題](https://github.com/perl-entrance-org/workshop-2014-03/blob/master/practice.md)の｢score.pl｣の一部の問題を解きながら, リファレンスを復習してみましょう.
-- [こちら](https://github.com/perl-entrance-org/workshop-2014-03/blob/master/score.pl)にサンプルデータがあります.
+- [こちら](https://github.com/perl-entrance-org/workshop-2014-03/blob/master/code/score.pl)にサンプルデータがあります.
 
 ---
 # サブルーチン
@@ -585,7 +585,7 @@ ___
 
 ___
 ## メタ文字(2)
-- `|` ... 選択一致
+- `|` ... 選択一致（OR検索）
 	* 例えば, `abc|def|ghi`は, `abc`, `def`, `ghi`のいずれかにマッチします.
 - `(x)` ... グループ化
 	* 正規表現をグループ化します.
@@ -629,7 +629,7 @@ ___
 	# 行頭に'john'がある場合のみマッチ
     if ($str =~ /^john/) {
         print "match!\n";
-    }	
+    }
 
 ___
 ## 区切り記号の変更(1)
@@ -702,7 +702,7 @@ ___
     - 例えば, 文字列に｢Hello papix｣が含まれる場合, ｢Hello! papix!｣と表示すればOKです.
 
 ---
-# 質問
+# 質問タイム
 
 ---
 # お疲れさまでした
